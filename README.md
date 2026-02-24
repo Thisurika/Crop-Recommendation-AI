@@ -11,12 +11,19 @@ This project helps farmers (especially in regions like Sri Lanka) make data-driv
 - **Weather Integration Ready** — Code hooks for free APIs like OpenWeatherMap (auto-fetch Colombo/Negombo weather)
 - **Reset Form Button** — Clears inputs and result easily
 - **Modular Structure** — Easy to extend (e.g., add fertilizer recommendation, market prices)
+## Demo Screenshots
 
-##Screenshot
+Here are visual examples of the Crop Recommendation System in action:
 
-![Crop Recommendation System Interface](screenshots/app_screenshot.png)
+### 1. Empty Form (Clean State – No Input Entered)
+![Empty Crop Recommendation Form](screenshots/empty_form.png)
 
-*(Screenshot shows the main form with inputs, Recommend button, Reset button, and a sample prediction result with weather info.)*
+*Screenshot showing the initial state: All input fields are blank, ready for user data entry. Includes the "Recommend Crop" and "Reset Form" buttons.*
+
+### 2. After Prediction (With Recommendation & Weather Info)
+![Crop Recommendation System Interface with Prediction](screenshots/app_screenshot.png)
+
+*Screenshot showing a filled form, successful prediction (e.g., "Recommended Crop: rice"), and optional weather integration display for Negombo/Colombo area.*
 
 > **Note**: Add your own screenshot here!  
 > How to create one:  
