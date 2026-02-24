@@ -1,0 +1,117 @@
+/* static/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #a8e063, #56ab2f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+
+/* Option A: Use your exact image as background (full cover, centered) */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20251019/pngtree-vast-green-field-under-a-clear-blue-sky-image_19917120.webp");
+    background-size: cover;          /* Makes it fill the screen */
+    background-position: center;     /* Centers the image */
+    background-repeat: no-repeat;    /* Prevents tiling */
+    background-attachment: fixed;    /* Keeps it fixed when scrolling (optional) */
+    min-height: 100vh;               /* Ensures full viewport height */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Optional: Add a subtle dark overlay so text remains readable */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);  /* Semi-transparent black overlay – adjust 0.4 for darkness */
+    z-index: -1;
+}
+
+/* Keep your container readable on top */
+.container {
+    background: rgba(255, 255, 255, 0.88);  /* Semi-transparent white for contrast */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 400px;
+    backdrop-filter: blur(8px);     /* Nice modern blur effect (supported in most browsers) */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Rest of your styles (inputs, button, etc.) remain the same */
+
+.button-group {
+    display: flex;
+    gap: 15px;              /* space between buttons */
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#reset-btn {
+    background: #f44336;    /* red color to indicate reset/clear */
+    color: white;
+}
+
+#reset-btn:hover {
+    background: #d32f2f;
+}
