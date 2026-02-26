@@ -46,4 +46,4 @@ Here are visual examples of the Crop Recommendation System in action:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/crop-recommendation-system.git
-   cd crop-recommendation-system.....
+   cd crop-recommendation-system.
