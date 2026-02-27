@@ -10,7 +10,7 @@ This project helps farmers (especially in regions like Sri Lanka) make data-driv
 - **Data Preprocessing & Model Training** — Separate scripts for preprocessing, training, and testing.
 - **Weather Integration Ready** — Code hooks for free APIs like OpenWeatherMap (auto-fetch Colombo/Negombo weather).
 - **Reset Form Button** — Clears inputs and result easily.
-- **Modular Structure** — Easy to extend (e.g., add fertilizer recommendation, market prices)
+- **Modular Structure** — Easy to extend (e.g., add fertilizer recommendation, market prices).
 ## Demo Screenshots
 
 Here are visual examples of the Crop Recommendation System in action:
