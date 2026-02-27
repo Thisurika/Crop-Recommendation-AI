@@ -1,6 +1,6 @@
 # Crop Recommendation System 🌾
 
-A user-friendly web application that recommends the most suitable crop to grow based on soil nutrients (N, P, K), temperature, humidity, pH, and rainfall. Built with **Python**, **Flask**, **scikit-learn** (Random Forest Classifier), and a clean HTML/CSS/JavaScript frontend.
+A user-friendly web application that recommends the most suitable crop to grow based on soil nutrients (N, P, K), temperature, humidity, pH, and rainfall. Built with **Python**, **Flask**, **scikit-learn** (Random Forest Classifier), and a clean HTML/CSS/JavaScript frontend..
 
 This project helps farmers (especially in regions like Sri Lanka) make data-driven decisions for better yield and sustainable farming.
 
