@@ -28,7 +28,7 @@ Here are visual examples of the Crop Recommendation System in action:
 > **Note**: Add your own screenshot here!  
 > How to create one:  
 > 1. Run the app (`python app.py`)  
-> 2. Open http://127.0.0.1:5000 in your browser  
+> 2. Open http://127.0.0.1:5000 in your browser.
 > 3. Enter sample values (e.g., N=90, P=42, K=43, temp=25, humidity=80, pH=6.5, rainfall=200)  
 > 4. Take a screenshot of the page after prediction (crop shown + weather bonus if integrated)  
 > 5. Crop it nicely (remove browser tabs/taskbar)  
