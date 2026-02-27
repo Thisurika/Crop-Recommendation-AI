@@ -6,7 +6,7 @@ This project helps farmers (especially in regions like Sri Lanka) make data-driv
 
 ## Features
 - **Accurate Crop Prediction** — Uses a trained Random Forest model (~99% accuracy on test data).
-- **Beautiful Responsive Interface** — Modern form with gradient background, reset button, and real-time prediction display
+- **Beautiful Responsive Interface** — Modern form with gradient background, reset button, and real-time prediction display.
 - **Data Preprocessing & Model Training** — Separate scripts for preprocessing, training, and testing
 - **Weather Integration Ready** — Code hooks for free APIs like OpenWeatherMap (auto-fetch Colombo/Negombo weather)
 - **Reset Form Button** — Clears inputs and result easily
