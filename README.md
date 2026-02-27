@@ -5,7 +5,7 @@ A user-friendly web application that recommends the most suitable crop to grow b
 This project helps farmers (especially in regions like Sri Lanka) make data-driven decisions for better yield and sustainable farming..
 
 ## Features
-- **Accurate Crop Prediction** — Uses a trained Random Forest model (~99% accuracy on test data)
+- **Accurate Crop Prediction** — Uses a trained Random Forest model (~99% accuracy on test data).
 - **Beautiful Responsive Interface** — Modern form with gradient background, reset button, and real-time prediction display
 - **Data Preprocessing & Model Training** — Separate scripts for preprocessing, training, and testing
 - **Weather Integration Ready** — Code hooks for free APIs like OpenWeatherMap (auto-fetch Colombo/Negombo weather)
